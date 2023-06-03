@@ -1,0 +1,10 @@
+spring:
+  sql:
+    init:
+      mode: always
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://0.0.0.0:3307/batch
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
